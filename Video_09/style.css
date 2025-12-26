@@ -1,0 +1,19 @@
+.red {
+    background-color: rgb(170, 2, 2);
+}
+
+#header {
+    color: pink;
+}
+
+#footer {
+    background-color: yellow;
+}
+
+.yellow {
+    color: rgb(11, 8, 11);
+}
+
+.pink {
+    color : pink;
+}
