@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Specificity in CSS</title>
+    <style>
+        /* the specificity of this selector is 1 */
+        h1 {
+            color: blue;
+        }
+        /*This is a example of attibute selecter,the specificity of this selector is 10 */
+        [data-a="a"] {
+            font-size: 24px;
+        }
+        /* the specificity of this selector is 1 */
+        p {
+            color: green;
+        }
+        /* the specificity of this selector is 10 */
+        .yellow {
+            color: yellow;
+        }
+        /* the specificity of this selector is 1+10 */
+        p.cred {
+            color: red;
+        }
+        /* the specificity of this selector is 10 */
+        .cperple {
+            color: purple;
+        }
+    </style>
+</head>
+<body>
+    <h1 data-a="a">Specificity in CSS</h1>
+    <p class="yellow cred cperple">Specificity is a set of rules that browsers use to determine which CSS rule applies when multiple rules could apply to the same element. It is based on the matching rules which are composed of different sorts of CSS selectors.</p>
+</body>
+</html>
