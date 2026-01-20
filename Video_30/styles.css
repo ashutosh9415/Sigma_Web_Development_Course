@@ -1,0 +1,25 @@
+:root{
+    --color: #dc017d;
+    --second: #e46889;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+.nav {
+    background-color: var(--color);
+}
+ul {
+    display: flex;
+}
+ul li {
+    list-style: none;
+    padding: 20px;
+}
+ul li:first-child{
+    background-color: rgba(255, 166, 0, 0.438);
+    /* background-color:var(--second); */
+}
+.container {
+   background-color: var(--second);
+}
