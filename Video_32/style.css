@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: gray;
+    padding: 100px;
+}
+.card{
+    background-color: #fff;
+    width: 230px;
+    height: 344px;
+    border-radius: 7px;
+    padding: 0 0 35px 0;
+
+}
+.image{
+    padding: 5px;
+}
+.image img{
+    width: 220px;
+    height: 130px;
+    border-radius: 7px;
+}
+.content{
+    padding: 10px;
+}
+.content p{
+    font-size: 13px;
+    color: rgb(166, 123, 123);
+}
+.capsules{
+    padding: 0px 8px;
+}
+.capsules span{
+    border: 1px solid rgb(112, 36, 36);
+    border-radius: 7px;
+    padding: 0px 6px;
+    font-size: 10px;
+}
+.button{
+    text-align: center;
+}
+.button button{
+    padding: 3px;
+    border-radius: 15px;
+    border: none;
+    background-color: rgb(194, 208, 255);
+    color: rgb(8, 0, 235);
+}
