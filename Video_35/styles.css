@@ -1,0 +1,53 @@
+.box:first-child {  /* used for the first child any parent */
+    background-color: lightblue;
+}
+.box::first-line {/* used for the first line of a paragraph */
+    /* font-weight: bold; */
+    color: darkblue;
+}
+
+.boxes *{
+    color: brown;
+    border: 2px solid black;
+    margin: 20px;
+}
+
+/* p, a, .box [data-color="primary"] {
+    padding-top: 10px;
+} */
+
+/* .box:nth-child(odd) {
+    background-color: rgb(217, 119, 119);
+} */
+
+/* .box:nth-last-child(1){
+    background-color: red;
+} */
+
+.boxes::before {
+    content: "This is before the boxes";
+    display: block;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+.boxes::after {
+    content: "This is after the boxes";
+    display: block;
+    font-size: 24px;
+    margin-top: 10px;
+}
+
+::selection {
+    background-color: yellow;
+    color: rgb(104, 201, 203);
+}
+
+.box::first-letter {
+    font-size: 32px;
+    font-weight: bold;
+    color: red;
+}
+input::placeholder {
+    color: gray;
+    font-style: italic;
+}
