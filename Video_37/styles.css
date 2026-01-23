@@ -60,12 +60,11 @@ li{
 
 .item{
     border: 3px solid ;
-    width: 150px;
-    height: 150px;
-    border-radius: 100px;
-    /* margin-left: 570px; */
-    /* grid-row-end: end; */   
-}
-.ab .item{
-    grid-column-end: end;
+    background-color: #0db11d;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: fixed;
+    bottom: 5px;
+    right: 10px; 
 }
