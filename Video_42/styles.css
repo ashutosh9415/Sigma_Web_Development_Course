@@ -1,0 +1,25 @@
+.box{
+    height: 100px;
+    width: 100px;
+    background-color:aquamarine;
+    border: 2px solid rgb(2, 94, 63);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* transform: rotate(0.25turn);*/ 
+    /* transform: rotate(90deg); */
+   /* both are equal .25turn and 90degree */
+    /* transform: rotateZ(9deg); */
+    /*we can rotate any axies x,y,z*/
+    /* transform: scale(.9); */
+    /* scale property use to change box size by any numbers , it do work on the axies also*/
+    /* transform: skew(45deg); */
+    /* skew property use to changes the shape of the element by distorting it at an angle along the X-axis, Y-axis, or both */
+    transform: translateY(100%);
+}
+.container{
+    width: 80vw;
+    height: 80vh;
+    border: 20x solid brown;
+    background-color: antiquewhite;
+}
