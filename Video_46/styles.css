@@ -1,0 +1,27 @@
+.container{
+    width: 50vw;
+    height: 60vh;
+    background-color: rgb(9,106,106);
+}
+.box{
+    width: 100px;
+    height: 100px;
+    /* animation-name: ashutosh;
+    animation-duration: 3s;
+    animation-iteration-count: 5;
+    animation-timing-function: ease-in-out;
+    animation-delay: 2s;
+    animation-direction: alternate; 
+    animation-fill-mode: backwards; */
+    /* animation: name duration timing-function delay iteration-count direction fill-mode; */
+    animation: ashutosh 3s ease-in-out reverse forwards;
+}
+@keyframes ashutosh {
+    from{
+        background-color: aqua;
+    }
+    to{
+        background-color: yellow;
+        transform: translateX(100px);
+    }
+}
