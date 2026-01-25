@@ -4,7 +4,7 @@
 }
 header{
     display: flex;
-    justify-content: center;
+    /* justify-content: ; */
     margin-top: 10px;
     position: sticky;
     top: 0;
@@ -37,15 +37,22 @@ nav{
 .text2 p{
     font-size: 9px;
 }
+.list{
+    display: flex;
+    /* margin-left: 300px; */
+
+    padding-inline-end: 10px;
+    
+   
+
+}
 li{
     display: inline;
-    margin-left: 20px;
+    /* margin-left: 20px; */
     padding-top: 8px;
     padding-right: 30px;
 }
-.list{
-    display: flex;
-}
+
 @media only screen and (max-width: 800px) {
     nav{
         background-color: rgb(215, 78, 101);
