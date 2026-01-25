@@ -15,7 +15,7 @@
     /* scale property use to change box size by any numbers , it do work on the axies also*/
     /* transform: skew(45deg); */
     /* skew property use to changes the shape of the element by distorting it at an angle along the X-axis, Y-axis, or both */
-    transform: translateY(100%);
+    /* transform: translateY(100%); */
 }
 .container{
     width: 80vw;
