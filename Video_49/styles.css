@@ -1,0 +1,19 @@
+.container{
+    width: 630px;
+    height: 630px;
+    border: 2px solid black;
+    /* background-position: center center; */
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQVBmvQ0vWIbzrOhkQyUhU-iQ2M2NYbm9lnzg&s);
+    /* background-repeat: no-repeat; */
+}
+/* img{
+    width: 630px;
+    height: 630px;
+    object-fit: cover;
+    object-position: bottom right;
+    /* object-fit: contain; */
+    /* object-fit: fill; */
+
+    h1{
+        color: rgb(255, 10, 10);
+    }
