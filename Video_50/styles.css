@@ -1,0 +1,14 @@
+/* img{
+    filter: blur(5px);
+} */
+.img1{
+    filter: brightness(100%) contrast(50%);
+}
+.img2{
+    /* filter: grayscale(50%); */
+    filter: sepia(70%);
+}
+.img3{
+    /* filter: invert(1); */
+    filter: opacity(0.3);
+}
