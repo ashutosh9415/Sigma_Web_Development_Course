@@ -12,11 +12,11 @@ console.log("JavaScript - Selecting by Ids, Classes, and More")
 // document.getElementById("redBox").style.backgroundColor = "red"
 
 
-// document.querySelector(".box").style.backgroundColor = "red"
+document.querySelector(".box").style.backgroundColor = "red"
 
-let elements = document.querySelectorAll(".box")
-console.log(elements)
+// let elements = document.querySelectorAll(".box")
+// console.log(elements)
 
-document.querySelectorAll(".box").forEach(element => {
-    element.style.backgroundColor = "red"
-})
+// document.querySelectorAll(".box").forEach(element => {
+//     element.style.backgroundColor = "red"
+// })
