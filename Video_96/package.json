@@ -1,0 +1,26 @@
+{
+  "name": "sigma_web_development_course",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "node main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ashutosh9415/Sigma_Web_Development_Course.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/ashutosh9415/Sigma_Web_Development_Course/issues"
+  },
+  "homepage": "https://github.com/ashutosh9415/Sigma_Web_Development_Course#readme",
+  "dependencies": {
+    "express": "^5.2.1",
+    "mongoose": "^9.3.3"
+  }
+}
