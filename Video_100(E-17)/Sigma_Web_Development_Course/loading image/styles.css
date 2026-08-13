@@ -1,0 +1,21 @@
+h3{
+    color: brown;
+    font-size: 40px;
+}
+.box{
+    width: 150px;
+    height: 150px;
+    border: 20px solid aqua;
+    border-top: 20px solid salmon;
+    border-radius: 50%;
+    animation: sonu 1s linear infinite;
+    
+}
+@keyframes sonu{
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}

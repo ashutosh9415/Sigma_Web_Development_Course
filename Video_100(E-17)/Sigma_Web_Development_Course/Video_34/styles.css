@@ -1,0 +1,14 @@
+.cards{
+    border: 2px solid black;
+    display: flow-root;
+}
+.card{
+    border: 2px solid red;
+}
+img{
+    float: right;/*or left or both or none*/
+}
+.card4{
+    background-color: #179993;
+    clear:right;
+}

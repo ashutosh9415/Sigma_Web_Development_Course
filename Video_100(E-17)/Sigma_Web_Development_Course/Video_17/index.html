@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS selectors</title>
+    <style>
+        /* element selector */
+        div {
+            background-color: rgb(39, 181, 228);
+            color: rgb(191, 57, 79);
+        }
+        /* class selector */
+        .red {
+            color: red;
+            background-color: white;
+        }
+        /* ID selector */
+        #unique {
+            font-weight: bold;
+            color: blue;
+            background-color: yellow;
+        }
+        /* chilld selector */
+        div > p {
+            font-style: italic;
+            color: black;
+
+        }
+        /* desentandant selector */
+        span p {
+            text-decoration: underline;
+        }
+        /* universal selector */
+        * {
+            font-family: Arial, sans-serif;
+            margin: 0;
+        }
+        /* pseudo selector */
+        a :visited {
+            color: purple;
+        }
+        a :link {
+            color: green;
+        }
+        a :active {
+            background-color: red;
+        }
+        a :hover {
+            background-color: yellow;
+        }
+        p:first-child {
+            background-color: lime;
+        }
+
+    </style>
+</head>
+<body>
+    <main>
+        <p>first paragraph</p>
+        <p>second paragraph</p>
+    </main>
+
+    <div>
+        This is a div element styled with CSS.
+        <p>This is a paragraph inside the div element.</p>
+    </div>
+    <div class="red">
+        This is another div element with a class attribute.
+    </div>
+    <div id="unique">
+        This is a div element with an ID attribute.
+    </div>
+    <article>
+        <span>
+            This is a div inside an article.
+            <p>This paragraph is a child of the div inside the article.</p>
+            <section>
+                <p>This paragraph is a descendant of the div inside the article.</p>
+            </section>
+        </span>
+    </article>
+
+    <a href="https://www.google.com">Go to Google</a>
+    <a href="https://www.facebook.com">facebook</a>
+</body>
+</html>

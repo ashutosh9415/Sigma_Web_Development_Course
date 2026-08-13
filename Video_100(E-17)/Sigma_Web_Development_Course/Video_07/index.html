@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form - To student details</title>
+</head>
+<body>
+    <h1>All necessary details for student registration</h1>
+    <form action="post">
+        <div>
+        <label for="name">Enter yourname:</label>
+        <input type="text" id="name" name="name" placeholder="Enter your user name">
+        </div>
+        &nbsp;
+        <div>
+        <label for="age">Enter your Age:</label>
+        <input type="number" id="age" name="age">
+        </div>&nbsp;
+        <div>
+        <label for="email">Enter your Email ID:</label>
+        <input type="email" id="email" name="email" required>
+        </div>&nbsp;
+        <div>
+        <label for="gender">Select your Gender:</label>
+        <input type="radio" id="male" name="gender" value="male">
+        <label for="male">Male</label>
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">Female</label>
+        </div>&nbsp;
+        <div>
+        <label for="course">Select your Course:</label>
+        <select id="course" name="course" required>
+            <option value="">Select a course</option>
+            <option value="Computer Science">Computer Science</option>
+            <option value="Mathematics">Mathematics</option>
+            <option value="Physics">Physics</option>
+        </select>
+        </div>&nbsp;
+        <div>
+        <label for="comments">Your address with pincode:</label><br>
+        <textarea id="comments" name="comments" rows="4" cols="50" placeholder="Enter your address here..." required></textarea>
+        </div>&nbsp;
+        <input type="checkbox" id="terms" name="terms" required>
+        <label for="terms">I agree to the terms and conditions</label><br>&nbsp;
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>

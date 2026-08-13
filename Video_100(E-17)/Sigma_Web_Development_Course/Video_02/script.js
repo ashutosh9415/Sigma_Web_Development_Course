@@ -1,0 +1,1 @@
+alert("Hello, welcome to Sigma Web Development course!");

@@ -1,0 +1,25 @@
+li{
+    display: inline;
+}
+:root{
+    --main-color: #3498db;
+    --secondary-color: #2ecc71;
+    --font-color: #2904fc;
+}
+ul li{
+    padding:  20px;
+    background-color: var(--secondary-color);
+}
+.menu{
+    position: sticky;
+    top: 0;
+}
+body{
+    background-color: var(--main-color);
+    padding: 20px;
+}
+div h2{
+    color: var(--font-color);
+    text-align: center;
+    padding: 20px;
+}

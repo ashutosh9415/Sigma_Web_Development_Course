@@ -1,0 +1,16 @@
+.box{
+    border: 2px solid rgb(200, 200, 195);
+    background-color: rgb(234, 235, 236);
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.ab{
+    width: 30vw;
+    height: 60vh;
+    border: 2px solid black;
+    background-color: red;
+    border-radius: 50%;
+}
